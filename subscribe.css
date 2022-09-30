@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#logo {
+    width: 15%;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+h1+p {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.cards {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+.card {
+    border: 2px solid transparent;
+    width: 25%;
+    padding: 0px 10px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+}
+
+.plan>div {
+    background-color: #3967D6;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.plan>h2>span {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+
+.features {
+    text-align: left;
+
+}
+
+.card:hover {
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.cards+p {
+    font: 16px;
+    font-weight: bold;
+    font-style: Arial;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+
+.cards+p>span {
+    font-style: italic;
+    cursor: pointer;
+    color: #3967D6;
+}
+
+#features {
+    background-color: #09112d;
+    padding: 35px 0;
+    height: auto;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+
+
+}
+
+#features>div>h1 {
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 700;
+
+}
+
+#feature {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 70%;
+    border: 0px solid yellow;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+#feature>div {
+    border: 0px solid white;
+    width: 18%;
+    height: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#feature>div>div {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    opacity: 0.98;
+    background: #2b3248;
+    margin: auto;
+    border: 0px solid red;
+
+}
+
+#feature img {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 70px;
+    height: 90px;
+}
+
+
+
+}
